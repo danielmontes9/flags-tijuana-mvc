@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "flags-tijuana-mvc", "flags-tijuana-mvc\flags-tijuana-mvc.csproj", "{4660EC32-39A1-4178-90A6-A40ACEA11661}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4660EC32-39A1-4178-90A6-A40ACEA11661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4660EC32-39A1-4178-90A6-A40ACEA11661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4660EC32-39A1-4178-90A6-A40ACEA11661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4660EC32-39A1-4178-90A6-A40ACEA11661}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43A2E739-1DF5-4EF2-8160-5EC92926CA2E}
+	EndGlobalSection
+EndGlobal
