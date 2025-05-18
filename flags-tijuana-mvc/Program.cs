@@ -16,6 +16,12 @@ builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
+// Scope to apply migrations and create the database if it doesn't exist
+using (var scope = app.Services.CreateScope()) { 
+    ApplicationDbContext context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    context.Database.Migrate();
+}
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
